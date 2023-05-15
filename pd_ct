@@ -1,0 +1,8 @@
+def solution(a, b):
+    num_list = [a, b]
+    b = max(num_list)
+    a = min(num_list)
+    answer = 0
+    for num in range(a, b+1) :
+        answer += num
+    return answer
